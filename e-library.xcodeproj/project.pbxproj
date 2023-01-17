@@ -9,31 +9,61 @@
 /* Begin PBXBuildFile section */
 		9BA49C18297693C20039B0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C17297693C20039B0BB /* AppDelegate.swift */; };
 		9BA49C1A297693C20039B0BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C19297693C20039B0BB /* SceneDelegate.swift */; };
-		9BA49C1C297693C20039B0BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C1B297693C20039B0BB /* ViewController.swift */; };
-		9BA49C1F297693C20039B0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA49C1D297693C20039B0BB /* Main.storyboard */; };
 		9BA49C22297693C20039B0BB /* e_library.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C20297693C20039B0BB /* e_library.xcdatamodeld */; };
 		9BA49C24297693C40039B0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA49C23297693C40039B0BB /* Assets.xcassets */; };
-		9BA49C27297693C40039B0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA49C25297693C40039B0BB /* LaunchScreen.storyboard */; };
 		9BA49C31297694BF0039B0BB /* FavoriteBook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C2F297694BF0039B0BB /* FavoriteBook+CoreDataClass.swift */; };
 		9BA49C32297694BF0039B0BB /* FavoriteBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C30297694BF0039B0BB /* FavoriteBook+CoreDataProperties.swift */; };
 		9BA49C382976950C0039B0BB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C362976950C0039B0BB /* CoreDataManager.swift */; };
 		9BA49C392976950C0039B0BB /* CoreDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C372976950C0039B0BB /* CoreDataDelegate.swift */; };
+		9BA49C3B2976959B0039B0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA49C3A2976959B0039B0BB /* LaunchScreen.storyboard */; };
+		9BA49C3E297695D70039B0BB /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C3D297695D70039B0BB /* MainTabBar.swift */; };
+		9BA49C4F297695E70039B0BB /* FavoritesScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C41297695E70039B0BB /* FavoritesScreenViewModel.swift */; };
+		9BA49C50297695E70039B0BB /* FavoriteBookDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C42297695E70039B0BB /* FavoriteBookDetailsViewModel.swift */; };
+		9BA49C51297695E70039B0BB /* FavoriteBookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C44297695E70039B0BB /* FavoriteBookDetailViewController.swift */; };
+		9BA49C52297695E70039B0BB /* FavoritesScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C45297695E70039B0BB /* FavoritesScreenViewController.swift */; };
+		9BA49C53297695E70039B0BB /* BookDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C48297695E70039B0BB /* BookDetailsViewModel.swift */; };
+		9BA49C54297695E70039B0BB /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C49297695E70039B0BB /* MainScreenViewModel.swift */; };
+		9BA49C55297695E70039B0BB /* DefaultTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C4B297695E70039B0BB /* DefaultTableViewCells.swift */; };
+		9BA49C56297695E70039B0BB /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C4D297695E70039B0BB /* BookDetailsViewController.swift */; };
+		9BA49C57297695E70039B0BB /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C4E297695E70039B0BB /* MainScreenViewController.swift */; };
+		9BA49C61297696000039B0BB /* UILabaelWithInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C59297696000039B0BB /* UILabaelWithInsets.swift */; };
+		9BA49C62297696000039B0BB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C5A297696000039B0BB /* Helper.swift */; };
+		9BA49C63297696000039B0BB /* WaitWindowDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C5B297696000039B0BB /* WaitWindowDialogController.swift */; };
+		9BA49C64297696000039B0BB /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C5C297696000039B0BB /* ExtensionViewController.swift */; };
+		9BA49C65297696000039B0BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C5E297696000039B0BB /* NetworkManager.swift */; };
+		9BA49C66297696000039B0BB /* SearchBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C5F297696000039B0BB /* SearchBaseModel.swift */; };
+		9BA49C67297696000039B0BB /* PDFController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA49C60297696000039B0BB /* PDFController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BA49C14297693C20039B0BB /* e-library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA49C17297693C20039B0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BA49C19297693C20039B0BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BA49C1B297693C20039B0BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9BA49C1E297693C20039B0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA49C21297693C20039B0BB /* e_library.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = e_library.xcdatamodel; sourceTree = "<group>"; };
 		9BA49C23297693C40039B0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9BA49C26297693C40039B0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA49C28297693C40039B0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA49C2F297694BF0039B0BB /* FavoriteBook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteBook+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9BA49C30297694BF0039B0BB /* FavoriteBook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteBook+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9BA49C362976950C0039B0BB /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9BA49C372976950C0039B0BB /* CoreDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDelegate.swift; sourceTree = "<group>"; };
+		9BA49C3A2976959B0039B0BB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA49C3D297695D70039B0BB /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		9BA49C41297695E70039B0BB /* FavoritesScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesScreenViewModel.swift; sourceTree = "<group>"; };
+		9BA49C42297695E70039B0BB /* FavoriteBookDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteBookDetailsViewModel.swift; sourceTree = "<group>"; };
+		9BA49C44297695E70039B0BB /* FavoriteBookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteBookDetailViewController.swift; sourceTree = "<group>"; };
+		9BA49C45297695E70039B0BB /* FavoritesScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesScreenViewController.swift; sourceTree = "<group>"; };
+		9BA49C48297695E70039B0BB /* BookDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsViewModel.swift; sourceTree = "<group>"; };
+		9BA49C49297695E70039B0BB /* MainScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		9BA49C4B297695E70039B0BB /* DefaultTableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCells.swift; sourceTree = "<group>"; };
+		9BA49C4D297695E70039B0BB /* BookDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		9BA49C4E297695E70039B0BB /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		9BA49C59297696000039B0BB /* UILabaelWithInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabaelWithInsets.swift; sourceTree = "<group>"; };
+		9BA49C5A297696000039B0BB /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9BA49C5B297696000039B0BB /* WaitWindowDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitWindowDialogController.swift; sourceTree = "<group>"; };
+		9BA49C5C297696000039B0BB /* ExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		9BA49C5E297696000039B0BB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9BA49C5F297696000039B0BB /* SearchBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBaseModel.swift; sourceTree = "<group>"; };
+		9BA49C60297696000039B0BB /* PDFController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +98,15 @@
 			children = (
 				9BA49C33297694C60039B0BB /* CoreDataManager */,
 				9BA49C2E2976944F0039B0BB /* AppDelegates */,
-				9BA49C1B297693C20039B0BB /* ViewController.swift */,
-				9BA49C1D297693C20039B0BB /* Main.storyboard */,
+				9BA49C3C297695D70039B0BB /* MainTabBar */,
+				9BA49C3F297695E70039B0BB /* FavoritesScreen */,
+				9BA49C46297695E70039B0BB /* MainScreen */,
+				9BA49C58297696000039B0BB /* CustomClasses */,
+				9BA49C5D297696000039B0BB /* NetworkManager */,
 				9BA49C23297693C40039B0BB /* Assets.xcassets */,
-				9BA49C25297693C40039B0BB /* LaunchScreen.storyboard */,
 				9BA49C28297693C40039B0BB /* Info.plist */,
 				9BA49C20297693C20039B0BB /* e_library.xcdatamodeld */,
+				9BA49C3A2976959B0039B0BB /* LaunchScreen.storyboard */,
 			);
 			path = "e-library";
 			sourceTree = "<group>";
@@ -112,6 +145,98 @@
 				9BA49C362976950C0039B0BB /* CoreDataManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		9BA49C3C297695D70039B0BB /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C3D297695D70039B0BB /* MainTabBar.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		9BA49C3F297695E70039B0BB /* FavoritesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C40297695E70039B0BB /* ViewModels */,
+				9BA49C43297695E70039B0BB /* ViewControllers */,
+			);
+			path = FavoritesScreen;
+			sourceTree = "<group>";
+		};
+		9BA49C40297695E70039B0BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C41297695E70039B0BB /* FavoritesScreenViewModel.swift */,
+				9BA49C42297695E70039B0BB /* FavoriteBookDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9BA49C43297695E70039B0BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C44297695E70039B0BB /* FavoriteBookDetailViewController.swift */,
+				9BA49C45297695E70039B0BB /* FavoritesScreenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9BA49C46297695E70039B0BB /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C47297695E70039B0BB /* ViewModels */,
+				9BA49C4A297695E70039B0BB /* Cells */,
+				9BA49C4C297695E70039B0BB /* ViewController */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		9BA49C47297695E70039B0BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C48297695E70039B0BB /* BookDetailsViewModel.swift */,
+				9BA49C49297695E70039B0BB /* MainScreenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9BA49C4A297695E70039B0BB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C4B297695E70039B0BB /* DefaultTableViewCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9BA49C4C297695E70039B0BB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C4D297695E70039B0BB /* BookDetailsViewController.swift */,
+				9BA49C4E297695E70039B0BB /* MainScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9BA49C58297696000039B0BB /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C59297696000039B0BB /* UILabaelWithInsets.swift */,
+				9BA49C5A297696000039B0BB /* Helper.swift */,
+				9BA49C5B297696000039B0BB /* WaitWindowDialogController.swift */,
+				9BA49C5C297696000039B0BB /* ExtensionViewController.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		9BA49C5D297696000039B0BB /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				9BA49C5E297696000039B0BB /* NetworkManager.swift */,
+				9BA49C5F297696000039B0BB /* SearchBaseModel.swift */,
+				9BA49C60297696000039B0BB /* PDFController.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA49C27297693C40039B0BB /* LaunchScreen.storyboard in Resources */,
 				9BA49C24297693C40039B0BB /* Assets.xcassets in Resources */,
-				9BA49C1F297693C20039B0BB /* Main.storyboard in Resources */,
+				9BA49C3B2976959B0039B0BB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,37 +309,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA49C1C297693C20039B0BB /* ViewController.swift in Sources */,
+				9BA49C3E297695D70039B0BB /* MainTabBar.swift in Sources */,
+				9BA49C55297695E70039B0BB /* DefaultTableViewCells.swift in Sources */,
+				9BA49C56297695E70039B0BB /* BookDetailsViewController.swift in Sources */,
+				9BA49C50297695E70039B0BB /* FavoriteBookDetailsViewModel.swift in Sources */,
+				9BA49C65297696000039B0BB /* NetworkManager.swift in Sources */,
 				9BA49C31297694BF0039B0BB /* FavoriteBook+CoreDataClass.swift in Sources */,
+				9BA49C66297696000039B0BB /* SearchBaseModel.swift in Sources */,
 				9BA49C18297693C20039B0BB /* AppDelegate.swift in Sources */,
 				9BA49C1A297693C20039B0BB /* SceneDelegate.swift in Sources */,
+				9BA49C51297695E70039B0BB /* FavoriteBookDetailViewController.swift in Sources */,
+				9BA49C63297696000039B0BB /* WaitWindowDialogController.swift in Sources */,
+				9BA49C62297696000039B0BB /* Helper.swift in Sources */,
 				9BA49C32297694BF0039B0BB /* FavoriteBook+CoreDataProperties.swift in Sources */,
+				9BA49C53297695E70039B0BB /* BookDetailsViewModel.swift in Sources */,
+				9BA49C4F297695E70039B0BB /* FavoritesScreenViewModel.swift in Sources */,
 				9BA49C382976950C0039B0BB /* CoreDataManager.swift in Sources */,
+				9BA49C61297696000039B0BB /* UILabaelWithInsets.swift in Sources */,
+				9BA49C54297695E70039B0BB /* MainScreenViewModel.swift in Sources */,
 				9BA49C22297693C20039B0BB /* e_library.xcdatamodeld in Sources */,
+				9BA49C52297695E70039B0BB /* FavoritesScreenViewController.swift in Sources */,
+				9BA49C67297696000039B0BB /* PDFController.swift in Sources */,
 				9BA49C392976950C0039B0BB /* CoreDataDelegate.swift in Sources */,
+				9BA49C57297695E70039B0BB /* MainScreenViewController.swift in Sources */,
+				9BA49C64297696000039B0BB /* ExtensionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9BA49C1D297693C20039B0BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BA49C1E297693C20039B0BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9BA49C25297693C40039B0BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BA49C26297693C40039B0BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9BA49C29297693C40039B0BB /* Debug */ = {
@@ -344,7 +465,7 @@
 				INFOPLIST_FILE = "e-library/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,7 +493,7 @@
 				INFOPLIST_FILE = "e-library/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
