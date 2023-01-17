@@ -9,9 +9,15 @@ https://user-images.githubusercontent.com/94104049/212856505-c6c474ed-c6ac-483e-
 
 Имеет функционал поискового запроса книги по названию
 
+<img width="321" alt="Снимок экрана 2023-01-17 в 14 12 01" src="https://user-images.githubusercontent.com/94104049/212857606-7576ee6b-0375-4d62-97d9-b58ee4290e2c.png">
+
 Можно сохранять книги как избарнное
 
+<img width="320" alt="Снимок экрана 2023-01-17 в 14 15 55" src="https://user-images.githubusercontent.com/94104049/212858620-16e47d6f-3f4f-4583-9645-3f8911c0fbde.png">
+
 Так же можно скачивать книги в детальной информации о книге
+
+<img width="323" alt="Снимок экрана 2023-01-17 в 14 20 48" src="https://user-images.githubusercontent.com/94104049/212858882-fc2e7dfb-8af7-428b-860a-428a75da1553.png">
 
 Для корректной работы приложения нужно устанавить все необходимые библиотеки
 
