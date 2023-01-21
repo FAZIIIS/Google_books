@@ -80,6 +80,11 @@ class FavoritesScreenViewController: UIViewController {
         setupNavigation()
         setupUIElements()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tabBarController?.setTabBarHidden(false)
+    }
 }
 
 

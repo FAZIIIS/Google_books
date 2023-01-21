@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SnapKit
 
-class BookDetailsViewController: UIViewController {
+class BookDetailsViewController: UIViewController, UINavigationControllerDelegate {
     
     //MARK: - PROPERTIES
     
@@ -225,7 +225,6 @@ class BookDetailsViewController: UIViewController {
         guard let model = self.viewModel?.model else { return }
         setupUIElements(model: model)
         setupNavigation()
-        hidesBottomBarWhenPushed = true
         
     }
     
@@ -236,6 +235,11 @@ class BookDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.setTabBarHidden(true)
     }
 }
 

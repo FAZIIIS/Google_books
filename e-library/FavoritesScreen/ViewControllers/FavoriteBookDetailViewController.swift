@@ -230,6 +230,11 @@ class FavoriteBookDetailViewController: UIViewController {
         super.viewDidDisappear(animated)
         self.navigationController?.popViewController(animated: true)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tabBarController?.setTabBarHidden(true)
+    }
 }
 
 //MARK: - FavoriteBookDetailViewModelDelegate
